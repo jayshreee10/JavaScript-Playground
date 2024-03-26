@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background: linear-gradient(to left bottom, aliceblue, lightpink, lightblue);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(175, 38, 0);
+}
+#buttons {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 23vw;
+  align-items: center;
+}
+button {
+  width: 100px;
+  height: 30px;
+}
+h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+p {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
